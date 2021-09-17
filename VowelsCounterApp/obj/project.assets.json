@@ -1,11 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "DaiKataVowels/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Counter.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Counter.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DaiKataVowels/1.0.0": {
+      "sha512": "aSh8Zk1Kswwq743SRTuc+dR1BrymgwFbJUQlUZe95+TM+DQpgbuQ5+mlt+O22+AP6NW5ReFGk6RnQC7hXruRKg==",
+      "type": "package",
+      "path": "daikatavowels/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "daikatavowels.1.0.0.nupkg.sha512",
+        "daikatavowels.nuspec",
+        "lib/net5.0/Counter.dll"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "DaiKataVowels >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Renombrar\\.nuget\\packages\\": {},
@@ -15,11 +40,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterApp\\VowelsCounterApp\\VowelsCounterApp.csproj",
+      "projectUniqueName": "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterAPP\\VowelsCounterApp.csproj",
       "projectName": "VowelsCounterApp",
-      "projectPath": "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterApp\\VowelsCounterApp\\VowelsCounterApp.csproj",
+      "projectPath": "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterAPP\\VowelsCounterApp.csproj",
       "packagesPath": "C:\\Users\\Renombrar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterApp\\VowelsCounterApp\\obj\\",
+      "outputPath": "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterAPP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -53,6 +78,12 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "DaiKataVowels": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

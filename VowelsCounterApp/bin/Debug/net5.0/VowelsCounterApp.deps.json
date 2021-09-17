@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "VowelsCounterApp/1.0.0": {
+        "dependencies": {
+          "DaiKataVowels": "1.0.0"
+        },
+        "runtime": {
+          "VowelsCounterApp.dll": {}
+        }
+      },
+      "DaiKataVowels/1.0.0": {
+        "runtime": {
+          "lib/net5.0/Counter.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VowelsCounterApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DaiKataVowels/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aSh8Zk1Kswwq743SRTuc+dR1BrymgwFbJUQlUZe95+TM+DQpgbuQ5+mlt+O22+AP6NW5ReFGk6RnQC7hXruRKg==",
+      "path": "daikatavowels/1.0.0",
+      "hashPath": "daikatavowels.1.0.0.nupkg.sha512"
+    }
+  }
+}

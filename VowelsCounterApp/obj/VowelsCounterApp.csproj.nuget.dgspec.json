@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterApp\\VowelsCounterApp\\VowelsCounterApp.csproj": {}
+    "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterApp\\VowelsCounterApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterApp\\VowelsCounterApp\\VowelsCounterApp.csproj": {
+    "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterApp\\VowelsCounterApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterApp\\VowelsCounterApp\\VowelsCounterApp.csproj",
+        "projectUniqueName": "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterApp\\VowelsCounterApp.csproj",
         "projectName": "VowelsCounterApp",
-        "projectPath": "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterApp\\VowelsCounterApp\\VowelsCounterApp.csproj",
+        "projectPath": "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterApp\\VowelsCounterApp.csproj",
         "packagesPath": "C:\\Users\\Renombrar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterApp\\VowelsCounterApp\\obj\\",
+        "outputPath": "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,6 +45,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "DaiKataVowels": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

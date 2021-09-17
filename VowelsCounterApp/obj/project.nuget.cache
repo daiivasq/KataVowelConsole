@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BNSORzi6GTkL0u4kxgOYRsl6SH9OkxiTf+rkquPLvcnAZ3y5nEXMLfzCJa7/71tR6ObLDGfhnlFeCaDYymv0xQ==",
+  "dgSpecHash": "Pm7V2QeLIdwR7lP51oXe/tCQaNAPC0PLEupMIVX3xeixf8cHXlp6lcpcBHJZOIu5VdaFaRQE4NHdj0n+NntRCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterApp\\VowelsCounterApp\\VowelsCounterApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Renombrar\\Documents\\REPOSITORIOS\\INTEC\\KataVowelsApp\\VowelsCounterApp\\VowelsCounterApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Renombrar\\.nuget\\packages\\daikatavowels\\1.0.0\\daikatavowels.1.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
